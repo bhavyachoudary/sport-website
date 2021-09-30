@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sports Website</title>
+     
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="important words of webpages">
+        <meta name="description" content="short note regarding webpages">
+        <meta name="author" content="Author name">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/Images/logo.jpg" rel="icon">
+        
+        
+        <link rel="stylesheet" href="/project/project.css">
+        <link rel="stylesheet" href="/project/sign.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+        <link href="/logo/all.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+   <style>
+     .ktm-img{
+       height: 100%;
+       width:90%
+     }
+     .head-1 {
+    color: #1a2137;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para {
+    color: #7b8794;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #1a2137;
+    height: 40px;
+    width: 130px;
+    border-width: 0px;
+    color: white;
+    border-radius: 6px;
+}
+.vedios1{
+  height:70vh;
+  width:100%
+}
+#error1,#error2,#error3,#error4,#error5{
+                  color:red;
+                  font-size:15px;
+                  font-weight: bold;
+}
+
+.sign-form {
+  background-image: linear-gradient(pink,orange);
+    width: 50%;
+   
+    border-radius: 15px;
+   
+  }
+  .bg-con{
+    background-image: linear-gradient(pink,orange);
+  }
+  .ht{
+    width:100%;
+    border-radius:20px;
+   height: 50px;
+  }
+  .ht:hover{
+    background-color:crimson
+  }
+       
+   </style>
+    </head>
+    <body>
+        <main >
+           <!--header-->
+          <nav class="navbar navbar-expand-md navbar-light bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img src="/Images/slogo.png" height="70" width="70"><span class="col">Sports Bikes</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link "  href="Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="bikes.html">BIKES</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="newmodels.html">NEW MODELS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="review.html">REVIEWS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="signup.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="contactus.html">CONTACT US</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+         <div class="container padding ">
+         
+    
+            <div class=" bg-con pt-5 pb-5 pl-5 pr-5">
+            <h3 class="text-center text-dark pb-3">Please fill in this form to create an account.</h3>
+              <div class="row d-flex flex-r ow justify-content-center">
+                <a href="login.html"><button class="btn btn-success ht mr-5">LOGIN</button></a>
+                <a href="signup.html"><button class="btn btn-primary ht ml-5">SIGN UP</button></a>
+              </div>
+              <form action="login.html" onsubmit="return validateForm()">
+              <hr>
+              <label for="fname"><b>First Name:</b></label>
+              <input type="text" placeholder="Enter FirstName" name="fname" id="fname" class="form-control" onblur="validate1()" required >
+              <p id="error1"></p>
+
+              <label for="lanme"><b>Last Name:</b></label>
+              <input type="text" placeholder="Enter LastName" name="lname"  class="form-control" id="lname" onblur="validate2()"  required >
+              <p id="error2"></p>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="email"  class="form-control" onblur="validate3()" required >
+        <p id="error3"></p>
+
+              <label for="pass"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="pass" id="pass"  class="form-control" onblur="validate4()" required>
+        <p id="error4"></p>
+
+              <label for="c-pass"><b>Confirm Password</b></label>
+              <input type="password" placeholder="confirm Password" name="c-pass" id="c-pass"  class="form-control" onblur="validate5()" required>
+              <p id="error5"></p>
+
+              <label>
+                
+            <tr><td><input type="checkbox" id="check" onchange="showPass()"><label>Show Password</label></td></tr>
+            
+              </label>
+        
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+      
+                <input type="submit" value="Cancel" class="btn btn-danger"/>
+                <input type="submit" value="Sign Up" class="btn btn-success"/>
+            
+            </div>
+          </form>
+           
+        </div>
+ 
+<!--footer-->
+<div class="container-fluid padding bg-dark pt-4 pb-3">
+  <div class="row padding ">
+    
+      <div class="col-md-3">
+       <ul type="none">
+   <a href="#"><h4 class="footer-head">About Us</h4></a> 
+   <p class="footer-para">Indian Motorcycle is an American brand of motorcycles originally produced from 1901 to 1953 in Indian Motorcycle Manufacturing Company in 1923.</p>
+   
+   <a href="#"><li>Read More</li></a> 
+ 
+  </ul>
+</div>
+
+  <div class="col-md-3">
+ <ul type="none">
+  <a href="#"><h4 class="footer-head">Quick Links</h4></a> 
+  <a href="Home.html"><li>Home</li></a> 
+  <a href="bikes.html"><li>Bikes</li></a> 
+  <a href="newmodels.html"><li>New Models</li></a> 
+  <a href="review.html"><li>Reviews</li></a> 
+  <a href="signup.html"><li>SignIn</li></a> 
+    </ul>
+</div>
+  
+
+<div class="col-md-3">
+  <ul type="none">
+      <a href="#"><h4 class="footer-head">Contact Us</h4></a> 
+      <a href="#"><li>1-B,SARBABHA NAGER,Punjab,India</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>www.gmail.com</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>info@nsone.in</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>customercare@nsone.in</li></a> 
+      <a href="#"><li>saruv jeet:+9876546545</li></a> 
+ </ul>
+</div>
+<div class="col-md-3">
+  <ul type="none">
+      <a href="#"><h4 class="footer-head">Find Us</h4></a> 
+    <a href="https://www.google.com/maps/place/Exquisite+Moto+LLP+-+Indian+Motorcycle/@12.9749786,77.6200105,15z/data=!4m5!3m4!1s0x0:0xda54b612235abc7!8m2!3d12.9749786!4d77.6200105?hl=en" target="-blank"><img src="/Images/maps.png" class="img-map"/></a>
+ </ul>
+</div>
+
+
+<div class="col-12 text-center">
+  <hr class="bg-light">
+<p class="para-copy">COPYRIGHTS & Privacy@2021</p> 
+</div>
+
+</div>
+</div>
+
+
+</footer>
+
+</main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/project/validationsign.js"></script>
+      </body>
+
+</html>

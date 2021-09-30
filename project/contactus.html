@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sports Website</title>
+     
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="important words of webpages">
+        <meta name="description" content="short note regarding webpages">
+        <meta name="author" content="Author name">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/Images/logo.jpg" rel="icon">
+        
+        <link rel="stylesheet" href="/sportsite/index.css">
+        <link rel="stylesheet" href="/project/project.css">
+  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+        <link href="/logo/all.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+   <style>
+     
+     #error1,#error2,#error3,#error4,#error5{
+            color:red;
+            font-size:15px;
+            font-weight: bold;
+        }
+        .colo{
+       font-style: italic;
+     
+       font-weight: bold;
+     }
+        .btn1{
+       
+       background:grey;
+       border-radius: 10px;
+       font-size: 8px;
+       height:30px;
+       width: 80px;
+       margin:5px;
+       border-width: 0px;
+    }
+    .buy{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:50px;
+        background:thistle;
+        background-size: cover;
+        height:80vh;
+    }
+    .bold{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .he{
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        color: brown;
+    font-size: 40px;
+    margin-top:20px;
+    }
+    #btn2{
+    height:40px;
+    width:140px;
+    border: 2px solid darkgrey;
+    margin-top: 12px;
+    font-weight: bold;
+    color: white;
+    }
+    #check{
+        margin-top:12px
+    }
+    #btn1{
+        height:40px;
+    width:90px;
+    border: 2px solid darkgrey;
+    margin-top: 12px;
+    font-weight: bold;
+    color: black;
+    }  
+    .vedios1{
+  height:70vh;
+  width:100%
+}
+   </style>
+    </head>
+    <body>
+        <main >
+           <!--header-->
+          <nav class="navbar navbar-expand-md navbar-light bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img src="/Images/slogo.png" height="70" width="70"><span class="col">Sports Bikes</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link "  href="Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="bikes.html">BIKES</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="newmodels.html">NEW MODELS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="review.html">REVIEWS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="signup.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="contactus.html">CONTACT US</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        
+   
+    <!--vedio section-->
+    <div class="container padding">
+      <h2 class="text-center text-danger pt-4 pb-4">Just Play the vedio for Reference</h2>
+     <iframe src="https://www.youtube.com/embed/nBnQmmyUhdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="vedios1"></iframe>
+    </div>
+    
+
+<!--contact us-->
+<div class="container padding bg-warning mb-4">
+    <h1 class="he">Contact Us</h1>
+   
+       
+    <form id="regForm" action="Succes.html"  nonvalidate>
+        <table>
+        <tr><td> <label for="fname" class="bold"> Name: <i class="fa fa-id-card-o" aria-hidden="true"></i>
+        </label></td><td><input type="text" id="fname" placeholder="Enetr your name" ></td></tr>
+        <tr><td></td><td id="error1"></td></tr>
+        
+        <tr><td><label for="tel" class="bold">Phone no: <i class="fa fa-phone icon" aria-hidden="true"></i></label></td><td><input type="tele" id="tel" pattern="[0-9]+" placeholder="Enter phone number"></td></tr>
+        <tr><td></td><td id="error2"></td></tr>
+       
+       
+        <tr><td><label for="mail" class="bold">Enter email: <i class="fa fa-envelope-o icon"  aria-hidden="true"></i></label></td><td> <input type="email" id="mail" placeholder="Enter valid Email"  ></td></tr> 
+        <tr><td></td><td id="error3"></td></tr>
+        
+        <tr><td><label for="add" class="bold">Address: <i class="fas fa-map-marker-alt"></i> </label></td><td> <textarea id="add" class="c1" rows="4" cols="40"></textarea></td></tr>
+        <tr><td></td><td id="error4"></td></tr>
+        
+       
+       
+        
+        <tr><td><input type="submit" value="Submit" id="btn2" class="mb-3 btn btn-success"></td> <td><input type="Reset" class="mb-3 btn btn-danger" value="Reset" id="btn1"></td></tr>
+    </table> 
+    </form>
+
+</div>
+ 
+<!--footer-->
+<div class="container-fluid padding bg-dark pt-4 pb-3">
+  <div class="row padding ">
+    
+      <div class="col-md-3">
+       <ul type="none">
+   <a href="#"><h4 class="footer-head">About Us</h4></a> 
+   <p class="footer-para">Indian Motorcycle is an American brand of motorcycles originally produced from 1901 to 1953 in Indian Motorcycle Manufacturing Company in 1923.</p>
+   
+   <a href="#"><li>Read More</li></a> 
+ 
+  </ul>
+</div>
+
+  <div class="col-md-3">
+ <ul type="none">
+  <a href="#"><h4 class="footer-head">Quick Links</h4></a> 
+  <a href="Home.html"><li>Home</li></a> 
+  <a href="bikes.html"><li>Bikes</li></a> 
+  <a href="newmodels.html"><li>New Models</li></a> 
+  <a href="review.html"><li>Reviews</li></a> 
+  <a href="signup.html"><li>SignIn</li></a> 
+    </ul>
+</div>
+  
+
+<div class="col-md-3">
+  <ul type="none">
+      <a href="#"><h4 class="footer-head">Contact Us</h4></a> 
+      <a href="#"><li>1-B,SARBABHA NAGER,Punjab,India</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>www.gmail.com</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>info@nsone.in</li></a> 
+      <a href="https://www.gmail.com" target="_blank"><li>customercare@nsone.in</li></a> 
+      <a href="#"><li>saruv jeet:+9876546545</li></a> 
+ </ul>
+</div>
+<div class="col-md-3">
+  <ul type="none">
+      <a href="#"><h4 class="footer-head">Find Us</h4></a> 
+    <a href="https://www.google.com/maps/place/Exquisite+Moto+LLP+-+Indian+Motorcycle/@12.9749786,77.6200105,15z/data=!4m5!3m4!1s0x0:0xda54b612235abc7!8m2!3d12.9749786!4d77.6200105?hl=en" target="-blank"><img src="/Images/maps.png" class="img-map"/></a>
+ </ul>
+</div>
+
+
+<div class="col-12 text-center">
+  <hr class="bg-light">
+<p class="para-copy">COPYRIGHTS & Privacy@2021</p> 
+</div>
+
+</div>
+</div>
+
+
+</footer>
+
+</main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  <script src="/project/validation.js"></script>
+      </body>
+
+</html>

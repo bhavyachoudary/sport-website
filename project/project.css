@@ -1,83 +1,166 @@
-.bg-contanier{
-    background-color:#FFE4C4;
-    background-size: cover;
-    margin-top: 15px;
- 
+
+
+
+.nav-item{
+    font-weight: bold;
+    font-size: 16px;
+    
+    font-style: italic;
 }
-.mrag{
-    margin-left:360px;
-  
+.col{
+color: darkred;
+font-weight: bold;
+font-family: cursive;
+font-size: 28px;
 }
 
-.col{
-    font-family: "MV Boli";
+.carousel-head{
+   font-style: italic;
+    color: orangered;
     font-weight: bold;
-    color:crimson;
-    font-size: 25px;
+    font-size: 40px;
 }
-ul i{
+.carousel-para{
+   
+    color: darkkhaki;
+    font-size: 20px;
+ }
+ .carousel-head1{
+    font-style: italic;
+     color: orangered;
+     font-weight: bold;
+     font-size: 40px;
+ }
+ .carousel-para1{
+    
+      color: darkkhaki;
+    font-size: 20px;
+  }
+  .carousel-indicators{
+      display: none;
+  }
+  .pop-head{
+      color:darkolivegreen;
+      font-weight: bold;
+      font-size: 32px;
+  }
+  .pop-head:hover{
+      color:greenyellow;
+      font-size: 40px;
+  }
+  .bg-col{
+      background-image: linear-gradient(gray,orange);
+  }
+  .up-head{
+      color:darkslateblue;
+      padding:15px;
+
+  }
+  .up-head1{
+    color:floralwhite;
+    padding:15px;
+}
+.up-para{
+    color:linen;
+    font-style: italic;
+   }
+   .fea-head{
+       font-weight: bold;
+       color:crimson;
+       padding-bottom: 8px;
+   }
+   .images1:hover{
+       height:200px
+   }
+button:hover{
+    height:50px;
+    width: 180px;
+}
+.best-head{
+    color: mediumvioletred;
+    font-weight: bold;
+}
+.best-h{
+    color: orangered;
+    font-weight: bold;
+  
+}
+.images1{
+    height:150px;
+    width: 200px;
+}
+.images{
+    height:200px;
+    width: 300px;
+}
+
+.slider{
+    height: 80vh;
+}
+.brand{
+    height:150px;
+    width:200px
+}
+.col-img{
+    width:100%;
+}
+.card-ht{
+    min-height:400px
+}
+.inventor-img{
+    width:50%
+}
+
+.carousel-cap{
+  position: absolute;
+  top: 30%;
+  transform: translateX(-30%);
+
+}
+.carousel-cap1{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+  
+  }
+ul a li{
+    color: lightsteelblue;
+    padding-top:8px;
+    text-decoration: none;
+   
+}
+.footer-para{
+    color: lightsteelblue;
+    padding-top:8px;
+}
+.footer-head{
+    color:blueviolet;
     font-weight: 500;
-    color:dimgray;
-    padding-left:30px;
+    text-decoration: none;
+
 }
+.para-copy{
+color: lightgray;
+}
+.img-map{
+    width:220px;
+    padding-top: 8px;
+}
+.left-bar{
+    width:30%
+}
+.content-bar{
+    width: 60%;
+}
+
 .heigh{
     min-height:40px;
 }
-li a{
-    
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-}
-
-/* logo*/
-.bg-container2{
-    background-image: url("/Images/homepage.jpg");
-    height:80vh;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-  
-    
-}
-.bikeh{
-    color:honeydew;
-    font-size:40px;
-    font-style: italic;
 
 
-}
-.para{
-    color:white;
-    font-size: 18px;
-    margin-top: 2%;
-    margin-bottom: 4%;
-}
 
-.btn1{
-    background:blueviolet;
-    border-width: 0px;
-    height:40px;
-    width: 120px;
-    color: white;
-    padding: 8px;
-    margin-left: 1%;
-    border-radius: 6px;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
- 
-}
-.btn1:hover{
-    color:red;
-    height:50px;
-    width:140px;
-    background: indianred;
-}
+
+
 
  .heading{
      font-style: italic;
@@ -85,11 +168,7 @@ li a{
      font-weight: bold;
  }
 
-.images1{
-   height:200px;
-   width: 320px;
- 
-}
+
 .images2{
     min-height:250px;
     min-width:250px;

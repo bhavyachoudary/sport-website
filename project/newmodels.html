@@ -1,202 +1,309 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Sports Bike</title>
-      <meta charset="UTF-8">
-      <meta name="keywords" content="important words of webpages">
-      <meta name="description" content="short note regarding webpages">
-      <meta name="author" content="Author name">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="/project/project.css">
-        <link rel="stylesheet" href="/project/validation.js">
-
-        <link href="/Images/logo.jpg" rel="icon">
-
-       
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-        <link href="/logo/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <style>
-       img:hover{
-           height:150px;
-           width:150px
-       }
-       a{
-           font-weight: bold;
-           color:brown;
-           font-size: 18px;
-           
-       }
-       .para{
-           color:gray;
-           font-weight: 400;
-           font-size: 13px;
-       }
-       h2{
-        font-style: italic;
-         color:grey;
-         font-weight: bold; 
-       }
-       .bg-contanier1{
-        background: linear-gradient(to bottom left, #80FFDB, #5390D9);
-        }
-        .colo{
-       font-style: italic;
+        <title>Sports Website</title>
      
-       font-weight: bold;
-     }
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="keywords" content="important words of webpages">
+          <meta name="description" content="short note regarding webpages">
+          <meta name="author" content="Author name">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link href="/Images/logo.jpg" rel="icon">
+          
+          <link rel="stylesheet" href="/sportsite/index.css">
+          <link rel="stylesheet" href="/project/project.css">
+    
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+          <link href="/logo/all.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+   <style>
+   .head-1 {
+    color: #1a2137;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para {
+    color: #7b8794;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #1a2137;
+    height: 40px;
+    width: 130px;
+    border-width: 0px;
+    color: white;
+    border-radius: 6px;
+}
+.bg-con{
+    background-image: linear-gradient(pink,orange);
+}
+.bg-bkies{
+  
+  background-color:pink
+}
+
    </style>
     </head>
     <body>
         <main >
-            <div class="container bg-contanier1">
-                <header class="header">
-                    <nav class="navbar navbar-expand-lg navbar-light ">
-                        <div class="container">
+             <!--header-->
+          <nav class="navbar navbar-expand-md navbar-light bg-bkies">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#"><img src="/Images/slogo.png" height="70" width="70"><span class="col">Sports Bikes</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link "  href="Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="bikes.html">BIKES</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="newmodels.html">NEW MODELS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="review.html">REVIEWS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="signup.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link"  href="contactus.html">CONTACT US</a>
+                        </li>
+                        
+                    </ul>
+                </div>
 
-                          <a class="navbar-brand " href="#"><img src="/Images/slogo.png" height="50" width="50"><span class="col">Sports Bikes</span></a>
-                          
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            
-                          </button>
-                          
-                          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                            
-                            <ul class="navbar-nav ml-auto mrag colo" >
-                             
-                                <li class="nav-item active styl">
-                                    <a class="nav-link list-inline-item text-dark " href="Home.html">HOME <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item styl">
-                                    <a class="nav-link list-inline-item text-dark" href="bikes.html" >BIKES</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link list-inline-item text-dark" href="newmodels.html" >NEW MODELS</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link list-inline-item text-dark" href="review.html">REVIEW</a>
-                                </li>
-                               
-                                <li class="nav-item">
-                                    <a class="nav-link list-inline-item text-dark" href="validation.html">CONTACT US</a>
-                                </li>
-                              
-        
-                            </ul>
+            </div>
+        </nav>
 
-                            
-                            
-                          </div>
-                        </div>
-                      </nav>
-                </header>
-
-                <h2 class="text-center mt-3 mb-4 ">POPULAR BRANDS</h2>
-                
-                <div class="conatiner row pt-3 pb-3">
-               
-                    <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/tvs.png" class="p-4 logo">
+               <!--brands section-->
+               <div class="container padding ">
+                <h2 class="text-center pt-3 pb-5 pop-head">Popular Brands</h2>
+                <div class="row text-center padding">
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        
+                        <a href="#"><img src="/Images/brand13.png" class="brand"/></a>
                         
                     </div>
-                    <h5 class="text-center pt-1">TVS</h5>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="/Images/brand11.png" class="brand"/></a>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="/Images/brand4.png" class="brand"/></a>
+                       
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="/Images/brand1.png" class="brand"/></a>
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="/Images/brand6.png" class="brand"/></a>
+                        
+                    </div> <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="#"><img src="/Images/brand7.png" class="brand"/></a>
+                        
+                    </div>
+            <hr/>
                 </div>
-                <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/honda.webp" class="p-4 logo">
-                    </div>
-                    <h5 class="text-center pt-1">HONDA</h5>
+            </div>
+<!--logosection-->
+<div class="container text-center padding bg-light pt-3 pb-3 mt-2">
+    <h2 class="fea-head">Featured bikes</h2>
+       <div class="row padding">
+        <div class="col-lg-4 pb-3">
+            <a href="#"><h4>Most Popular</h4></a>
+            </div>
+            <div class="col-lg-4 pb-3">
+                <a href="#"><h4>New Launches</h4></a>
                 </div>
-                <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/hero.png" class="p-4 logo">
+                <div class="col-lg-4 pb-3">
+                    <a href="#"><h4>Upcoming</h4></a>
                     </div>
-                    <h5 class="text-center pt-1">HERO</h5>
-                </div>
-                <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/yam.webp" class="p-4 logo">
-                    </div>
-                    <h5 class="text-center pt-1">YAMAHA</h5>
-                </div>
-                <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/Enf.png" class="p-4 logo">
-                    </div>
-                    <h5 class="text-center pt-1">ROYAL ENFIELD</h5>
-                </div>
-                <div class="col-lg-2">
-                    <div class="card">
-                        <img src="/Images/bajaj.webp" class="p-4 logo">
-                    </div>
-                    <h5 class="text-center pt-1">BAJAJ</h5>
-                </div>
-
-                </div>
-
-                <h2 class="pt-5 pb-4 text-center">LATEST BIKES</h2>
-                <div class="container row text-center pt-3">
-                   
-                    <div class="brd col-lg-4">
-                        <img src="/Images/ktmrc.jpg" class="images1" >
-                        <h5>TVS Rader</h5>
-                           <p class="para">750000 - 89000<sup>+</sup></p>
-                           <button>View Finance Offers</button>
-                   </div>
-                 
-                   <div class="brd col-lg-4">
-                   <img src="/Images/tvs.jpg" class="images1" >
-           
-                        <h5>TVS Rader</h5>
-                        <p class="para">750000 - 89000<sup>+</sup></p>
-                        <button>View Finance Offers</button>
-                    </div>
-                    
-                    <div class="brd col-lg-4">
-                      <img src="/Images/agusta.jpg" class="images1" >
-                  
-                        <h5>TVS Rader</h5>
-                           <p class="para">750000 - 89000<sup>+</sup></p>
-                           <button>View Finance Offers</button>
-                    </div>
-                   <h2 class="pt-5 pb-4 text-center"> UPCOMING BIKES</h2>
-                   <div class="container row text-center pt-3">
-                   
-                    <div class="brd col-lg-4">
-                        <img src="/Images/ktmrc.jpg" class="images1" >
-                        <a href="#" >KTM</a><br>
-                           <p class="para">SHOWROOM PRICE: 2,50,000</p>
-                   </div>
-                 
-                   <div class="brd col-lg-4">
-                   <img src="/Images/tvs.jpg" class="images1" >
-                        <a href="#" >TVS APACHE</a><br>
-                           <p class="para">SHOWROOM PRICE: 1,50,000</p>
-                    </div>
-                    
-                    <div class="brd col-lg-4">
-                      <img src="/Images/agusta.jpg" class="images1" >
-                        <a href="#" >MV AGUSTA</a><br>
-                        <p class="para">SHOWROOM PRICE: 1,95,000 </p>
-                    </div>
-                    </div> 
+                    <hr class="bg-dark">
+  <div class="brd col-lg-4">
+    <img src="/Images/ktmrc.jpg" class="images1" >
+    <h5 class="pt-3">KTM 125 Duke.</h5>
+       <p class="para">Rs 1.38 - 1.38 Lakh<sup>+</sup></p>
+       <button class="btn btn-warning mb-3"> View Finance Offers</button>
+  </div>
+  
+  <div class="brd col-lg-4">
+  <img src="/Images/tvs.jpg" class="images1" >
+  
+    <h5 class="pt-3">Yamaha YZF R15 V3</h5>
+    <p class="para">Rs. 1.57 - 1.59 Lakh<sup>+</sup></p>
+    <button class="btn btn-warning mb-3">View Finance Offers</button>
+  </div>
+  <div class="brd col-lg-4">
+    <img src="/Images/agusta.jpg" class="images1" >
+    
+        <h5 class="pt-3">MV Agusta Brutale 800</h5>
+        <p class="para">Rs. 1.76 - 1.99 Lakh<sup>+</sup></p>
+        <button class="btn btn-warning mb-3">View Finance Offers</button>
+    </div>
+  
+  </div>
+  </div>  
                
-                                
-                             
-     </div>
-     </main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <!--2 sides-->
+     <div class="container padding bg-con pt-4 pb-4">
+        <div class="row padding">
 
+            <div class="col-12 col-md-6 order-1 order-md-2">
+
+                <img src="/Images/royal-sports.png" class="image w-100">
+
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-1 d-flex flex-column justify-content-center  ">
+                <h1 class="head-1">Royal Enfield inspector</h1>
+                <p class="para"> The decade begins with a diverse eleven model range, from the 225cc 2-stroke Model A to the 976cc V-twin Model K. New 350 and 500cc side-valve and overhead valve machines with dry-sump lubrication are also produced.</p>
+                <button class="button">View More</button>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 col-md-6 ">
+                <div>
+                    <img src="/Images/aprill.jpg" class="image w-100 pt-5">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5 ">
+                <h1 class="head-1">Aprilla RSV4 RF</h1>
+                <p class="para">Aprilia bikes price in India starts at Rs 87,082 for Aprilia Storm 125, which is the cheapestUpcoming Aprilia bikes in India include RS250 , RS 150 which are expected to launch in 2021.</p>
+                <button class="button">View More</button>
+            </div>
+ </div>
+    </div>
+
+
+     <!--best bikes-->
+<div class="container text-center padding bg-light pt-4 pb-3 mb-4 mt-5">
+    <h2 class="best-head">Best Bikes of september 20201</h2>
+    
+    
+   
+    <div class="row padding">
+        <div class="col-lg-3 pb-3">
+            <a href="#"><h4 class="pt-2 pb-2 best-h">KTM</h4></a>
+            </div>
+            <div class="col-lg-3 pb-3">
+                <a href="#"><h4 class="pt-2 pb-2 best-h">Aprilla</h4></a>
+                </div>
+                <div class="col-lg-3 pb-3">
+                    <a href="#"><h4 class="pt-2 pb-2 best-h">Agusta</h4></a>
+                    </div>
+                    <div class="col-lg-3 pb-3">
+                        <a href="#"><h4 class="pt-2 pb-2 best-h">Yamaha</h4></a>
+                        </div>
+                    <hr class="bg-dark">
+  <div class="brd col-lg-6">
+    <img src="/Images/yamahafz.jpg" class="images" >
+    <h5 class="pt-3">YZF R15 V3</h5>
+       <p class="para">Avg Ex-ShowRoom Price<br/>69000-750000</p>
+       <button class="btn btn-outline-info mb-3"> View Finance Offers</button>
+  </div>
+  
+  <div class="brd col-lg-6">
+  <img src="/Images/royal-sports.png" class="images" >
+  
+    <h5 class="pt-3">Royal Enfield Himalayan</h5>
+    <p class="para">Avg Ex-ShowRoom Price<br/>69000-750000</p>
+    <button class="btn btn-outline-info  mb-3">View Finance Offers</button>
+  </div>
+  <div class="brd col-lg-6">
+    <img src="/Images/aprilla.png" class="images" >
+    
+        <h5 class="pt-3">Aprilia SR 160 BS6</h5>
+        <p class="para">Avg Ex-ShowRoom Price<br/>69000-750000</p>
+        <button class="btn btn-outline-info  mb-3">View Finance Offers</button>
+    </div>
+    <div class="brd col-lg-6">
+        <img src="/Images/ktm.png" class="images" >
+        
+            <h5 class="pt-3">KTM RC 125</h5>
+            <p class="para">Avg Ex-ShowRoom Price<br/>69000-750000</p>
+            <button class="btn btn-outline-info  mb-3">View Finance Offers</button>
+        </div>
+  
+  </div>
+  </div>
+  
+    <!--footer-->
+    <div class="container-fluid padding bg-dark pt-4 pb-3">
+        <div class="row padding ">
+          
+            <div class="col-md-3">
+             <ul type="none">
+         <a href="#"><h4 class="footer-head">About Us</h4></a> 
+         <p class="footer-para">Indian Motorcycle is an American brand of motorcycles originally produced from 1901 to 1953 in Indian Motorcycle Manufacturing Company in 1923.</p>
+         
+         <a href="#"><li>Read More</li></a> 
+       
+        </ul>
+      </div>
+  
+        <div class="col-md-3">
+       <ul type="none">
+        <a href="#"><h4 class="footer-head">Quick Links</h4></a> 
+        <a href="Home.html"><li>Home</li></a> 
+        <a href="bikes.html"><li>Bikes</li></a> 
+        <a href="newmodels.html"><li>New Models</li></a> 
+        <a href="review.html"><li>Reviews</li></a> 
+        <a href="signup.html"><li>SignIn</li></a> 
+          </ul>
+     </div>
+        
+    
+      <div class="col-md-3">
+        <ul type="none">
+            <a href="#"><h4 class="footer-head">Contact Us</h4></a> 
+            <a href="#"><li>1-B,SARBABHA NAGER,Punjab,India</li></a> 
+            <a href="https://www.gmail.com" target="_blank"><li>www.gmail.com</li></a> 
+            <a href="https://www.gmail.com" target="_blank"><li>info@nsone.in</li></a> 
+            <a href="https://www.gmail.com" target="_blank"><li>customercare@nsone.in</li></a> 
+            <a href="#"><li>saruv jeet:+9876546545</li></a> 
+       </ul>
+    </div>
+    <div class="col-md-3">
+        <ul type="none">
+            <a href="#"><h4 class="footer-head">Find Us</h4></a> 
+          <a href="https://www.google.com/maps/place/Exquisite+Moto+LLP+-+Indian+Motorcycle/@12.9749786,77.6200105,15z/data=!4m5!3m4!1s0x0:0xda54b612235abc7!8m2!3d12.9749786!4d77.6200105?hl=en" target="-blank"><img src="/Images/maps.png" class="img-map"/></a>
+       </ul>
+    </div>
+      
+      
+    <div class="col-12 text-center">
+        <hr class="bg-light">
+    <p class="para-copy">COPYRIGHTS & Privacy@2021</p> 
+  </div>
+  
+      </div>
+      </div>
+   
+      
+      </footer>
+  
+  
+  
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+     </main>
+
     
     
       </body>
